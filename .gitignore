@@ -1,1 +1,6 @@
-code.sh
+# Environment variables - NEVER commit secrets
+.env
+.env.local
+.env.production
+.env.*.local
+!.env.example
